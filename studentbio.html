@@ -2,21 +2,35 @@
 <html>
     <head>
         <title>Student Bio</title>
+        <link rel="stylesheet" type="text/css" href="week1-day2-html-css/css/style.css">
     </head>
 
     <body>
+        <header>
         <h1> Student Bio</h1>
+        </header>
+
+    <div class="container">
+
+        <section id="main-bio">
         <h2> Oscar Medina</h2>
-        <img src="profile_cropped.jpg" width="350" height="250">
-        <br>
+        <img id="bio-image" src="profile_cropped.jpg" width="350" height="250">
+        
         <p>Hello my name is Oscar Medina. I was previously employed as a Music Teacher in the Rio Grande Valley for the last 10 years.
-            Some of my hobbies include playing musical instruments, performing at gigs, and playing video games. 
+            Some of my hobbies include playing musical instruments, performing at gigs, and playing video games. </p>
+        </section>
+
+        <section id="contact-info">
 
         <h2>Contact Info</h2>
         <ul>
-            <li><strong>Email: </strong><a href ="mailto: ogmedina04@gmail.com">ogmedina04@gmail.com</a></li>
-            <li><strong>Github:</strong><a href ="https://github.com/ogmedina" target="_blank">ogmedina</a></li>
+            <li><strong>Email: </strong><a class="email-link" href ="mailto: ogmedina04@gmail.com">ogmedina04@gmail.com</a></li>
+            <li><strong>Github:</strong><a class="web-link" href ="https://github.com/ogmedina" target="_blank">ogmedina</a></li>
             <li><strong>Portfolio:</strong>coming soon</li>
         </ul>
+        </section>
+    </div>
+        
+        
     </body>
 </html>
